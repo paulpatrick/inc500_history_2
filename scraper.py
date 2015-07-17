@@ -5,8 +5,8 @@ year = "2013"
 baseurl = "http://www.inc.com/inc5000/list/"
 
 #for yr in xrange
-batch = ["/800"]
-for i in xrange (9, 50):
+batch = ["/1000"]
+for i in xrange (9, 100):
     batch.append("/"+str(i*100))
 
 for group in batch:
